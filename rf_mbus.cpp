@@ -6,6 +6,15 @@
 
 #include <ELECHOUSE_CC1101_SRC_DRV.h>
 
+#define GDO0 D2  // або інший номер пін-коду, який ви використовуєте
+#define GDO2 D4 // або інший номер пін-коду
+#define SPI_SCK D5  // SPI Clock pin
+#define SPI_MISO D6  // SPI Master In Slave Out pin
+#define SPI_MOSI D7  // SPI Master Out Slave In pin
+#define SPI_SS D8  // SPI Slave Select pin
+
+
+
 uint8_t MBbytes[584];
 
 RXinfoDescr RXinfo;
